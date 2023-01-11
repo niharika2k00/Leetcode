@@ -17,31 +17,37 @@ public:
         if(!p && !q) return true;
         if(!p || !q || p->val != q->val) return false;
 
- queue<TreeNode*>q1;
-        queue<TreeNode*>q2;
-        q1.push(p);
-        q2.push(q);
-        while(!q1.empty() && !q2.empty()){
-            TreeNode* node1 = q1.front();q1.pop();
-            TreeNode* node2 = q2.front();q2.pop();
-            if(node1->val != node2->val){
+        queue<TreeNode*> queue1;
+        queue<TreeNode*> queue2;
+
+        queue1.push(p);
+        queue2.push(q);
+        
+        while(!queue1.empty() && !queue2.empty()) {
+            TreeNode* front1 = queue1.front();
+            TreeNode* front2 = queue2.front();
+
+            // result.push_back(front->val);
+            queue1.pop();
+            queue2.pop();
+
+            // (front1 && !front2) check is not needed as its present in the queue means node present
+            if(front1->val != front2->val)
                 return false;
+            
+            if(front1->left && front2->left){
+                queue1.push(front1->left);
+                queue2.push(front2->left);
             }
-            if(node1->left!=NULL && node2->left!=NULL){
-                q1.push(node1->left);
-                q2.push(node2->left);
+            else if(front1->left != NULL || front2->left != NULL) return false;
+
+            if(front1->right && front2->right){
+                queue1.push(front1->right);
+                queue2.push(front2->right);
             }
-            else if(node1->left!=NULL || node2->left!=NULL){
-                return false;
-            }
-            if(node1->right!=NULL && node2->right!=NULL){
-                q1.push(node1->right);
-                q2.push(node2->right);
-            }
-            else if(node1->right!=NULL || node2->right!=NULL){
-                return false;
-            }
+            else if(front1->right != NULL || front2->right != NULL) return false;
         }
+
         return true;
     }
 };
@@ -49,11 +55,12 @@ public:
 
 
 
-
-
-
-
-
-
-
+//    Recursive Method
+// ----------------------
+    bool isSameTree(TreeNode* p, TreeNode* q) {
+     
+        if(!p && !q) return true;
+        if(!p || !q || p->val != q->val) return false;
+        return (p->val == q->val) && isSameTree(p->left, q->left) && isSameTree(p->right, q->right);
+    }
 
