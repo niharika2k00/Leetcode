@@ -6,15 +6,12 @@ public:
 
 // Count 1's at LHS and 0's at RHS
         for(int i=0; i<len ; i++){
-            if(s[i] == '0'){ 
-                tzero++ ; 
-                tzero = min(tzero , tone);
-            }
-            else {
+            if(s[i] == '0')
+                tzero++ ;     
+            else 
                 tone++; 
                 
-            }
-            
+            tzero = min(tzero , tone);
         }
 
         return tzero;
