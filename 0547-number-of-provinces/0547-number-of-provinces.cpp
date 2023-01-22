@@ -1,5 +1,8 @@
 class Solution {
 public:
+    // METHOD - 1:
+    // GRAPH PROBLEM USING DFS
+    
     // void DFS(unordered_map<int, vector<int>> &adj, vector<bool>&visited, int u){
 
     //     visited[u] = true;
@@ -38,6 +41,7 @@ public:
 
 
 
+    // METHOD - 2 (Without making out own adjacency list)
     void DFS(vector<vector<int>> &isConnected, vector<bool>&visited, int u){
 
         visited[u] = true;
