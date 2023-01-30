@@ -7,20 +7,47 @@ class Solution {
   public:
     // Function to detect cycle in an undirected graph.
     
-    bool DFS(vector<int> adj[], vector<bool>&visited, int u, int parent){
+    // bool DFS(vector<int> adj[], vector<bool>&visited, int u, int parent){
         
-        visited[u] = true;
+    //     visited[u] = true;
         
-        // for(auto it = adj[u].begin(); it != adj[u].end(); it++) {...}
-        for(auto &v: adj[u]){
-            if(v == parent)
-                continue;
+    //     // for(auto it = adj[u].begin(); it != adj[u].end(); it++) {...}
+    //     for(auto &v: adj[u]){
+    //         if(v == parent)
+    //             continue;
                 
-            if(visited[v])
-                return true;
+    //         if(visited[v])
+    //             return true;
                 
-            if(DFS(adj, visited, v, u))
-                return true;
+    //         if(DFS(adj, visited, v, u))
+    //             return true;
+    //     }
+        
+    //     return false;
+    // }
+    
+    bool BFS(vector<int> adj[], vector<bool>&visited, int u){
+        queue<pair<int,int>> que;
+        
+        que.push({u,-1});
+        
+        if(!visited[u])
+            visited[u] = true;
+            
+        while(!que.empty()){
+            pair<int,int> p = que.front();
+            que.pop();
+            int node = p.first;
+            int parent = p.second;
+            
+            for(auto &v: adj[node]){
+                if(!visited[v]){
+                    visited[v] = true;
+                    que.push({v,node});
+                }
+                else if(v != parent)
+                    return true;
+            }
         }
         
         return false;
@@ -31,14 +58,15 @@ class Solution {
         
         vector<bool> visited(v,false);
         
-        // for(int i=0 ; i<v ; i++){
-            if( !visited[i] && DFS(adj, visited, i, -1) ) // vertex not visited and encountered a cycle
+        for(int i=0 ; i<v ; i++){
+            if( !visited[i] && BFS(adj, visited, i) ) // vertex not visited and encountered a cycle
                 return true;
         }
 
         return false;
     }
 };
+
 
 //{ Driver Code Starts.
 int main() {
