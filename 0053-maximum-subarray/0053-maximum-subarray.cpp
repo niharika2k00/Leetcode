@@ -25,10 +25,11 @@ public:
 
 // Using 1D DP
     int helper2(vector<int> &vec, int len){
-        int currSum=0, maxSum=0;
+        int currSum=vec[0], maxSum=vec[0];
         
-        for(int i=0; i<len; i++){
-
+        for(int i=1; i<len; i++){
+            currSum = max(currSum+vec[i], vec[i]);
+            maxSum = max(currSum, maxSum);
         }
         return maxSum;
     }
@@ -36,7 +37,7 @@ public:
     int maxSubArray(vector<int>& nums) {
         int len = nums.size();
 
-        return helper1(nums, len);
-        // return helper2(nums, len);
+        // return helper1(nums, len);
+        return helper2(nums, len);
     }
 };
