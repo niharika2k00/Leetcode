@@ -11,17 +11,24 @@
  */
 class Solution {
 public:
-    bool checkSymmetric(TreeNode* l, TreeNode* r){
-        if(!l && !r) return true;
-        if(!l || !r) return false;  // any 1 not present
-        if(l->val != r->val) return false;
+    bool helper(TreeNode* l, TreeNode*r){
+        if(!l && !r) // both null
+            return true;
 
-        return checkSymmetric(l->left, r->right) && checkSymmetric(l->right, r->left);
+        if(!l && r || l && !r)
+            return false;
+        
+        if(l->val == r->val)
+            return helper(l->left, r->right) && helper(l->right, r->left);
+        
+        return false;
     }
 
     bool isSymmetric(TreeNode* root) {
-        if(!root)
+        if(!root) 
             return true;
-        return checkSymmetric(root->left , root->right);    
+        
+        bool res = helper(root->left, root->right);
+        return res;
     }
 };
