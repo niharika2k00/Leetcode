@@ -12,7 +12,6 @@
 class Solution {
 public:
     TreeNode* invertTree(TreeNode* root) {
-        // TreeNode* newnode = root;
         TreeNode* temp;
         if(!root)
             return root;
