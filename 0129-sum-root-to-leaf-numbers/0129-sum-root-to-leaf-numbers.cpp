@@ -13,7 +13,6 @@ class Solution {
 public:
 
 // can only be solve with DFS
-
     int calcSum(TreeNode* root, int currSum){
         currSum = currSum * 10 + root->val;
 
