@@ -15,19 +15,20 @@ public:
 // can only be solve with DFS
 
     int calcSum(TreeNode* root, int currSum){
+        int leftSubtreeSum=0, rightSubtreeSum=0;
         if(!root) return 0;
-        
+
         currSum = currSum * 10 + root->val;
 
         if(!root->left && !root->right) // leaf node
             return currSum;
         
-        // int leftSubtreeSum, rightSubtreeSum;
-        // if(root->left)
-            int leftSubtreeSum = calcSum(root->left, currSum);
         
-        // if(root->right)
-            int rightSubtreeSum = calcSum(root->right, currSum);
+        if(root->left)
+            leftSubtreeSum = calcSum(root->left, currSum);
+        
+        if(root->right)
+            rightSubtreeSum = calcSum(root->right, currSum);
 
         return leftSubtreeSum + rightSubtreeSum;
     }
