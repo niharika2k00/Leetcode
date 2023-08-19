@@ -30,8 +30,6 @@ public:
     }
 
     TreeNode* mergeTrees(TreeNode* root1, TreeNode* root2) {
-        // TreeNode* res;
-        //return !root1 && !root2 ? NULL : root1 && !root2 ? root1 : root2;
 
         return helperDFS(root1, root2);
     }
