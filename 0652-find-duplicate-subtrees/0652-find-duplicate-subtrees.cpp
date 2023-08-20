@@ -11,6 +11,12 @@
  */
 class Solution {
 public:
+/*
+    Intuition : 
+    Create the subtree string and store into a hashMap.
+    Next time check whether newly created string is present inside the hashMap or not.
+    If yes then push it into a vector.
+*/
     string getSubtreeString(TreeNode* root, unordered_map<string,int> &mp, vector<TreeNode*> &res) {
         if(!root)
             return "N";
