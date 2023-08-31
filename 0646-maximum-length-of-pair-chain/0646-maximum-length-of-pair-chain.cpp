@@ -10,6 +10,7 @@ public:
         int res=1, lastPairEnd=0;
         sort(pairs.begin(), pairs.end(), comp); // sort the pairs by last element [1]
 
+        // sorted paris
         for(auto it: pairs){
             cout << it[0] << " " << it[1] << endl;
         }
