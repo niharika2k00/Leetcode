@@ -1,7 +1,15 @@
+/*
+ * @lc app=leetcode id=134 lang=java
+ *
+ * [134] Gas Station
+ */
+
+// @lc code=start
 class Solution {
     public int canCompleteCircuit(int[] gas, int[] cost) {
 
-        //totalGas -> stores the gas remaining after travelling around the circuit, 
+        // GREEDY PROBLEM
+        //totalGas -> stores the gas remaining after traverlling around the circuit,
         //currGas -> stores the gasRem after filling up at a stn & trvaelling to next station, if that's not possible, stores 0
         //station -> stores the index from which we can start and finish a round circuit
 
@@ -22,3 +30,4 @@ class Solution {
         return (totalGas < 0) ? -1 : station;
     }
 }
+// @lc code=end

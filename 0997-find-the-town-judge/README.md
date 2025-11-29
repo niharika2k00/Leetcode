@@ -1,45 +1,47 @@
-<h2><a href="https://leetcode.com/problems/find-the-town-judge/">997. Find the Town Judge</a></h2><h3>Easy</h3><hr>Find the Town Judge - In a town, there are n people labeled from 1 to n. There is a rumor that one of these people is secretly the town judge.
+<h2><a href="https://leetcode.com/problems/find-the-town-judge/">997. Find the Town Judge</a></h2><h3>Easy</h3><hr><p>In a town, there are <code>n</code> people labeled from <code>1</code> to <code>n</code>. There is a rumor that one of these people is secretly the town judge.</p>
 
-If the town judge exists, then:
+<p>If the town judge exists, then:</p>
 
- 1. The town judge trusts nobody.
- 2. Everybody (except for the town judge) trusts the town judge.
- 3. There is exactly one person that satisfies properties 1 and 2.
+<ol>
+	<li>The town judge trusts nobody.</li>
+	<li>Everybody (except for the town judge) trusts the town judge.</li>
+	<li>There is exactly one person that satisfies properties <strong>1</strong> and <strong>2</strong>.</li>
+</ol>
 
-You are given an array trust where trust[i] = [ai, bi] representing that the person labeled ai trusts the person labeled bi.
+<p>You are given an array <code>trust</code> where <code>trust[i] = [a<sub>i</sub>, b<sub>i</sub>]</code> representing that the person labeled <code>a<sub>i</sub></code> trusts the person labeled <code>b<sub>i</sub></code>. If a trust relationship does not exist in <code>trust</code> array, then such a trust relationship does not exist.</p>
 
-Return the label of the town judge if the town judge exists and can be identified, or return -1 otherwise.
+<p>Return <em>the label of the town judge if the town judge exists and can be identified, or return </em><code>-1</code><em> otherwise</em>.</p>
 
- 
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-Example 1:
+<pre>
+<strong>Input:</strong> n = 2, trust = [[1,2]]
+<strong>Output:</strong> 2
+</pre>
 
+<p><strong class="example">Example 2:</strong></p>
 
-Input: n = 2, trust = [[1,2]]
-Output: 2
+<pre>
+<strong>Input:</strong> n = 3, trust = [[1,3],[2,3]]
+<strong>Output:</strong> 3
+</pre>
 
+<p><strong class="example">Example 3:</strong></p>
 
-Example 2:
+<pre>
+<strong>Input:</strong> n = 3, trust = [[1,3],[2,3],[3,1]]
+<strong>Output:</strong> -1
+</pre>
 
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-Input: n = 3, trust = [[1,3],[2,3]]
-Output: 3
-
-
-Example 3:
-
-
-Input: n = 3, trust = [[1,3],[2,3],[3,1]]
-Output: -1
-
-
- 
-
-Constraints:
-
- * 1 <= n <= 1000
- * 0 <= trust.length <= 104
- * trust[i].length == 2
- * All the pairs of trust are unique.
- * ai != bi
- * 1 <= ai, bi <= n
+<ul>
+	<li><code>1 &lt;= n &lt;= 1000</code></li>
+	<li><code>0 &lt;= trust.length &lt;= 10<sup>4</sup></code></li>
+	<li><code>trust[i].length == 2</code></li>
+	<li>All the pairs of <code>trust</code> are <strong>unique</strong>.</li>
+	<li><code>a<sub>i</sub> != b<sub>i</sub></code></li>
+	<li><code>1 &lt;= a<sub>i</sub>, b<sub>i</sub> &lt;= n</code></li>
+</ul>
