@@ -42,7 +42,7 @@ class Solution {
 // @lc code=end
 
 
-/*                       APPROACHES
+/*                       APPROACHES 
                     ---------------------
 
     Method - 1 (Naive Approach)
@@ -52,9 +52,8 @@ class Solution {
                Time Complexity : O(n) + O(n)  =  O(2n)
 
     Method - 2  (Two Pointer Approach)
-    1) Move fast pointer n - th times,
-    2) Then the Slow Pointer +1 step.
-                 Fast - Slow = N
-
+    1) Move fast pointer n - th times,           
+    2) Then the Slow Pointer +1 step.     
+                 Fast - Slow = N 
+         
 */
-

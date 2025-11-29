@@ -1,0 +1,1 @@
+<h2><a href="https://leetcode.com/problems/short-encoding-of-words/">820. Short Encoding of Words</a></h2><h3>Medium</h3><hr><p>Please refer to <a href="https://leetcode.com/problems/short-encoding-of-words/">LeetCode</a> for the full problem description.</p>

@@ -1,0 +1,1 @@
+<h2><a href="https://leetcode.com/problems/consecutive-characters/">1446. Consecutive Characters</a></h2><h3>Easy</h3><hr><p>Please refer to <a href="https://leetcode.com/problems/consecutive-characters/">LeetCode</a> for the full problem description.</p>

@@ -2,7 +2,7 @@
  * @lc app=leetcode id=605 lang=java
  *
  * https://leetcode.com/problems/can-place-flowers/
- *
+ *  
  * [605] Can Place Flowers
  */
 
@@ -30,10 +30,9 @@ class Solution {
 }
 // @lc code=end
 
-/*
+/* 
                Test Cases Sample :
 
         1)  [0,0,1,0,1] , n = 1         true
-        2)  [1,0,0,0,0,1] , n = 2       false
+        2)  [1,0,0,0,0,1] , n = 2       false              
 */
-

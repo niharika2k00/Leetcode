@@ -1,0 +1,1 @@
+<h2><a href="https://leetcode.com/problems/minimum-absolute-difference/">1200. Minimum Absolute Difference</a></h2><h3>Easy</h3><hr><p>Please refer to <a href="https://leetcode.com/problems/minimum-absolute-difference/">LeetCode</a> for the full problem description.</p>

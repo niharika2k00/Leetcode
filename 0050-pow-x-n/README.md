@@ -1,0 +1,1 @@
+<h2><a href="https://leetcode.com/problems/pow-x-n/">50. Pow(x, n)</a></h2><h3>Medium</h3><hr><p>Please refer to <a href="https://leetcode.com/problems/pow-x-n/">LeetCode</a> for the full problem description.</p>

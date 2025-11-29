@@ -22,7 +22,7 @@ class Solution {
             trustedCount[trust[i][1]]++; //  person who is being Trusted
         }
 
-        /*
+        /* 
             Check :  the person who will be the town judge will NOT TRUST OTHERS   trustedByCount[i] == 0 ,
                       but he is trusted by EVERYONE (n - 1) person.
         */
@@ -35,4 +35,3 @@ class Solution {
     }
 }
 // @lc code=end
-

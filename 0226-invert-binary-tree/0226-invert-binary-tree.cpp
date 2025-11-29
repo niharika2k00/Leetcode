@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=226 lang=cpp
+ *
+ * [226] Invert Binary Tree
+ */
+
+// @lc code=start
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -9,11 +16,15 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-class Solution {
+class Solution
+{
 public:
-    TreeNode* invertTree(TreeNode* root) {
+    // Method - 1
+    // USING RECURSION METHOD INVERTING THE EXSISTING TREE
+    TreeNode *invertTree(TreeNode *root)
+    {
         TreeNode* temp;
-        if(!root)
+        if (!root)
             return root;
 
         if(root->left || root->right){
@@ -25,6 +36,34 @@ public:
         invertTree(root->left);
         invertTree(root->right);
 
-        return root;        
+        return root;
+    }
+
+    // Method - 2
+    // USING STACK DATA STRUCTURE METHOD INVERTING THE EXSISTING TREE
+    TreeNode *invertTree(TreeNode *root)
+    {
+        if (!root)
+            return NULL;
+
+        stack<*TreeNode> stack;
+        stack.push(root);
+
+        while (stack.size() > 0)
+        {
+            TreeNode *node = stack.top();
+            stack.pop();
+
+            swap(node->right, node->left);
+
+            if (root->left)
+                stack.push(root->left);
+
+            if (root->right)
+                stack.push(root->right);
+        }
+
+        return root;
     }
 };
+// @lc code=end

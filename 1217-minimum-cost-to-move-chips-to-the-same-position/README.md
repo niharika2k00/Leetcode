@@ -1,0 +1,1 @@
+<h2><a href="https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/">1217. Minimum Cost to Move Chips to The Same Position</a></h2><h3>Easy</h3><hr><p>Please refer to <a href="https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/">LeetCode</a> for the full problem description.</p>

@@ -2,7 +2,7 @@
  * @lc app=leetcode id=941 lang=java
  *
  * https://leetcode.com/problems/valid-mountain-array/
- *
+ * 
  * [941] Valid Mountain Array
  */
 
@@ -35,4 +35,3 @@ class Solution {
     }
 }
 // @lc code=end
-

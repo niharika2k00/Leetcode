@@ -1,0 +1,1 @@
+<h2><a href="https://leetcode.com/problems/minimize-deviation-in-array/">1675. Minimize Deviation in Array</a></h2><h3>Hard</h3><hr><p>Please refer to <a href="https://leetcode.com/problems/minimize-deviation-in-array/">LeetCode</a> for the full problem description.</p>

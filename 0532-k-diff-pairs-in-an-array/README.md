@@ -1,0 +1,1 @@
+<h2><a href="https://leetcode.com/problems/k-diff-pairs-in-an-array/">532. K-diff Pairs in an Array</a></h2><h3>Medium</h3><hr><p>Please refer to <a href="https://leetcode.com/problems/k-diff-pairs-in-an-array/">LeetCode</a> for the full problem description.</p>

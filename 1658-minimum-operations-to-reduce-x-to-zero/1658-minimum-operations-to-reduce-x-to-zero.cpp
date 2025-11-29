@@ -1,29 +1,53 @@
-class Solution {
+/*
+ * @lc app=leetcode id=1658 lang=cpp
+ *
+ * https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/description/
+ *
+ * [1658] Minimum Operations to Reduce X to Zero
+ */
+
+// @lc code=start
+class Solution
+{
 public:
-    int minOperations(vector<int>& arr, int x) {
-        int len = arr.size(), sum = 0, start=0, subarrSum=0, maxi=-1;
-        sum = accumulate(arr.begin(), arr.end(), 0);
-        int rem = sum - x;
+    int minOperations(vector<int> &nums, int x)
+    {
+        int len = nums.size(), sum = 0, subArrSum = 0, maxLength = -1;
+        int i = 0, j = 0;
 
-        if(sum == x) return len;
-        if(x > sum) return -1;
+        sum = accumulate(nums.begin(), nums.end(), 0);
 
-        // Find the longest subarray with sum rem
-        for(int i=0; i<len; i++){
-            subarrSum += arr[i];
+        if (x > sum)
+            return -1;
+        int remain = sum - x; //  11 - 5 = 6
 
-            if(subarrSum > rem){
-                while(subarrSum > rem){
-                    subarrSum = subarrSum - arr[start]; // remove ele from front
-                    start++;
-                }
+        // Now we have to find the Longest Subarray with  SUM  = 6
+        for (i = 0; i < len; i++)
+        {
+            subArrSum += nums[i];
+
+            while (subArrSum > remain)
+            {
+                subArrSum = subArrSum - nums[j]; // delete the first element from the window
+                j++;
             }
 
-            if(subarrSum == rem){
-                maxi = max(i-start+1, maxi); // maxLength
-            }
+            if (subArrSum == remain)
+                maxLength = max(maxLength, i - j + 1);
         }
 
-        return maxi == -1 ? -1 : len-maxi;
+        return maxLength == -1 ? -1 : len - maxLength;
     }
 };
+
+// @lc code=end
+
+/*
+           INTUITION / APPROACH
+         ---------------------------
+
+    1) Find the total sum of the ARR, then subtract X from it.
+    2) Means we got the remaining SUM = (total - X) . So now find the LONGEST SUBARRAY with remaining SUM
+                using the sliding window method.
+
+ */

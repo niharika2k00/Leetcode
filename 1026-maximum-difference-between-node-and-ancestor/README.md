@@ -1,0 +1,1 @@
+<h2><a href="https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/">1026. Maximum Difference Between Node and Ancestor</a></h2><h3>Medium</h3><hr><p>Please refer to <a href="https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/">LeetCode</a> for the full problem description.</p>

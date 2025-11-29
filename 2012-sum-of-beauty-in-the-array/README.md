@@ -1,0 +1,1 @@
+<h2><a href="https://leetcode.com/problems/sum-of-beauty-in-the-array/">2012. Sum of Beauty in the Array</a></h2><h3>Medium</h3><hr><p>Please refer to <a href="https://leetcode.com/problems/sum-of-beauty-in-the-array/">LeetCode</a> for the full problem description.</p>

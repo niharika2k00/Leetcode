@@ -14,9 +14,9 @@
  * ListNode(int val) { this.val = val; }
  * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
- *
+ * 
  * https://leetcode.com/problems/palindrome-linked-list/
- *
+ * 
  */
 class Solution {
 
@@ -75,7 +75,7 @@ class Solution {
  */
 
 /*        *****       We can also use STACK , but then  SPACE COMPLEXITY  : O(n)         *****
-
+   
     bool isPalindrome(ListNode* head) {
         stack<int> s;
         ListNode* temp = head;
@@ -93,4 +93,3 @@ class Solution {
         return true;
     }
 */
-

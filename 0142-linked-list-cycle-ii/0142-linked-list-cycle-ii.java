@@ -32,7 +32,7 @@ public class Solution {
         if (fast == null || fast.next == null)
             return null;
 
-    //  Meeting point of Slow   &   Head  is the Starting of the cycle in Linked List
+    //  Meeting point of Slow   &   Head  is the Starting of the cycle in Linked List 
         while (head != slow) {
             head = head.next;
             slow = slow.next;
@@ -42,4 +42,3 @@ public class Solution {
     }
 }
 // @lc code=end
-

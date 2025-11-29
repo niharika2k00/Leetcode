@@ -1,0 +1,1 @@
+<h2><a href="https://leetcode.com/problems/minimum-absolute-difference-in-bst/">530. Minimum Absolute Difference in BST</a></h2><h3>Easy</h3><hr><p>Please refer to <a href="https://leetcode.com/problems/minimum-absolute-difference-in-bst/">LeetCode</a> for the full problem description.</p>

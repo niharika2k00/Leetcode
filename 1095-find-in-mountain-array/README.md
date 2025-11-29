@@ -1,0 +1,1 @@
+<h2><a href="https://leetcode.com/problems/find-in-mountain-array/">1095. Find in Mountain Array</a></h2><h3>Hard</h3><hr><p>Please refer to <a href="https://leetcode.com/problems/find-in-mountain-array/">LeetCode</a> for the full problem description.</p>

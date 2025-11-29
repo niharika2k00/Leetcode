@@ -1,3 +1,12 @@
+/*
+ * @lc app=leetcode id=389 lang=cpp
+ *
+ * https://leetcode.com/problems/find-the-difference/
+ *
+ * [389] Find the Difference
+ */
+
+// @lc code=start
 class Solution
 {
 public:
@@ -25,3 +34,4 @@ public:
         return ele ;
     }
 };
+// @lc code=end

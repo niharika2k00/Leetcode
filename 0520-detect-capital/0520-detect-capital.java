@@ -2,7 +2,7 @@
  * @lc app=leetcode id=520 lang=java
  *
  * https://leetcode.com/problems/detect-capital/
- *
+ * 
  * [520] Detect Capital
  */
 
@@ -33,4 +33,3 @@ class Solution {
     }
 }
 // @lc code=end
-

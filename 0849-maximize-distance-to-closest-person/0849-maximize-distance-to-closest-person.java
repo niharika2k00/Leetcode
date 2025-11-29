@@ -19,7 +19,7 @@ class Solution {
                 while (futureFull < len && seats[futureFull] == 0 || futureFull < i)
                     futureFull++;
 
-                int left = prevFull == -1 ? len : i - prevFull; //
+                int left = prevFull == -1 ? len : i - prevFull; // 
                 int right = futureFull == len ? len : futureFull - i; // Right Gap/Distance to reach the NEXT filled chai
                 result = Math.max(result, Math.min(left, right));
             }
@@ -29,4 +29,3 @@ class Solution {
     }
 }
 // @lc code=end
-

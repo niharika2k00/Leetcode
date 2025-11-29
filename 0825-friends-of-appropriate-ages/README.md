@@ -1,0 +1,1 @@
+<h2><a href="https://leetcode.com/problems/friends-of-appropriate-ages/">825. Friends Of Appropriate Ages</a></h2><h3>Medium</h3><hr><p>Please refer to <a href="https://leetcode.com/problems/friends-of-appropriate-ages/">LeetCode</a> for the full problem description.</p>

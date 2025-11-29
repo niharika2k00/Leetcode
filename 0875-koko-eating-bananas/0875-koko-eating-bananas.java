@@ -2,9 +2,9 @@
  * @lc app=leetcode id=875 lang=java
  *
  * [875] Koko Eating Bananas
- *
+ * 
  * https://leetcode.com/problems/koko-eating-bananas/
- *
+ * 
  */
 
 // @lc code=start
@@ -42,4 +42,3 @@ class Solution {
     }
 }
 // @lc code=end
-

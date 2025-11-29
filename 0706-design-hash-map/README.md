@@ -1,0 +1,1 @@
+<h2><a href="https://leetcode.com/problems/design-hash-map/">706. Design HashMap</a></h2><h3>Easy</h3><hr><p>Please refer to <a href="https://leetcode.com/problems/design-hash-map/">LeetCode</a> for the full problem description.</p>

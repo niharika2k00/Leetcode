@@ -1,3 +1,11 @@
+/*
+ * @lc app=leetcode id=646 lang=cpp
+ *
+ * [646] Maximum Length of Pair Chain
+ *
+ * https://leetcode.com/problems/maximum-length-of-pair-chain/description/
+ *
+ */
 class Solution {
 public:
 // Similar to https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1 greedy problem

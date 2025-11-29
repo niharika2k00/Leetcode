@@ -1,31 +1,43 @@
-class Solution {
+/*
+ * @lc app=leetcode id=1647 lang=cpp
+ *
+ * [1647] Minimum Deletions to Make Character Frequencies Unique
+ *
+ * https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/
+ *
+ */
+
+// @lc code=start
+class Solution
+{
 public:
-    int minDeletions(string s) {
-        unordered_map<char, int>mp; // char - count
-        priority_queue<int> pq; // stores the freq
-        int count=0;
+    int minDeletions(string s)
+    {
+        int len = s.size(), res = 0;
+        unordered_map<char, int> hashMap;
+        unordered_map<int, int> freqMap;
 
-        for(auto it: s)
-            mp[it]++;
-        
-        for(auto it: mp)
-            cout << it.first << " - " << it.second << endl;
+        for (int i = 0; i < len; i++)
+            hashMap[s[i]]++;
 
-        for(auto it: mp)
-            pq.push(it.second);
-        
-        // max element at the top
-        while(pq.size() != 1){
-            int top = pq.top();
-            pq.pop();
+        for (auto it : hashMap)
+        {
+            int freq = it.second; // freq of a char
 
-            if(top == pq.top() && top != 0) // compare with 2nd top element
+            if (freqMap.find(freq) != freqMap.end()) // If found
             {
-                pq.push(top - 1);
-                count++;
+                while (freq > 0 && freqMap.find(freq) != freqMap.end())
+                {
+                    freq--;
+                    res++;
+                }
             }
+
+            if (freq > 0)
+                freqMap[freq]++;
         }
 
-        return count;
+        return res;
     }
 };
+// @lc code=end

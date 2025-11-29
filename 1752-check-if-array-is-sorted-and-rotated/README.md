@@ -1,0 +1,1 @@
+<h2><a href="https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/">1752. Check if Array Is Sorted and Rotated</a></h2><h3>Easy</h3><hr><p>Please refer to <a href="https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/">LeetCode</a> for the full problem description.</p>

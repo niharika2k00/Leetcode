@@ -1,0 +1,1 @@
+<h2><a href="https://leetcode.com/problems/repeated-substring-pattern/">459. Repeated Substring Pattern</a></h2><h3>Easy</h3><hr><p>Please refer to <a href="https://leetcode.com/problems/repeated-substring-pattern/">LeetCode</a> for the full problem description.</p>

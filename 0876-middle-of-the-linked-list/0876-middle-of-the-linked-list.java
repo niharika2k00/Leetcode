@@ -32,20 +32,19 @@ class Solution {
 }
 // @lc code=end
 
-/*
-                         METHOD - 1   ::
+/* 
+                         METHOD - 1   ::   
 
-            Time Complexity : O(n) + O(n/2)
+            Time Complexity : O(n) + O(n/2)             
 
         1)  Loop though the LinkedList , COUNT ++ ,  find the Len ,   (Len / 2  + 1) position.
-        2)  Now again iterate and pauses when the Iterator reaches the above position
+        2)  Now again iterate and pauses when the Iterator reaches the above position 
 
 
                           METHOD - 2   ::   *****  OPTIMIZED  *****
 
-            Time Complexity : O(n/2)
+            Time Complexity : O(n/2)             
 
         1)  Use 2 Pointer Approach , Hare & Tortoise / Slow & Fast Pointer
         2)  Hare moves +2 steps , and Tortoise moves +1 steps.
 */
-

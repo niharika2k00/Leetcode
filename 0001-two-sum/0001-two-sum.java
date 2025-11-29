@@ -5,32 +5,29 @@ import java.util.HashMap;
  *
  * [1] Two Sum
  */
-//         Any 2 number from the list having , whose addition is == TARGET
+// Any 2 number from the list having , whose addition is == TARGET
 // @lc code=start
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-
-        int i, len = nums.length, diff = 0;
         HashMap<Integer, Integer> hashMap = new HashMap<>();
-        int arr[] = new int[2];
+        int[] res = null;
 
-        for (i = 0; i < len; i++) {
-            diff = target - nums[i];
-            if (hashMap.containsKey(diff)) {
-                arr[1] = i;
-                arr[0] = hashMap.get(diff);
-                break;
+        for (int i = 0; i < nums.length; i++) {
+            int difference = target - nums[i];
+
+            if (hashMap.containsKey(difference)) {
+                res = new int[] { i, hashMap.get(difference) };
             }
-            hashMap.put(nums[i], i);
+
+            hashMap.put(nums[i], i); // storing value, index as need to return index
         }
 
-        return arr;
+        return res;
     }
 }
 // @lc code=end
 
 /*
-     KEY -->  Value of Array
-     VALUE -->  Index
-*/
-
+ * KEY --> Value of Array
+ * VALUE --> Index
+ */

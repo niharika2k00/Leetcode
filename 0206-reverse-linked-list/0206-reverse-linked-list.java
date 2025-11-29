@@ -2,7 +2,7 @@
  * @lc app=leetcode id=206 lang=java
  *
  * https://leetcode.com/problems/reverse-linked-list/
- *
+ * 
  * [206] Reverse Linked List
  */
 
@@ -25,11 +25,10 @@ class Solution {
             temp = curr.next; // address
             curr.next = newHead;
             newHead = curr;
-            curr = temp;
+            curr = temp;    
         }
 
         return newHead;
     }
 }
 // @lc code=end
-

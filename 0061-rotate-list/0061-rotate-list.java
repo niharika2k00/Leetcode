@@ -43,11 +43,10 @@ class Solution {
         while (k-- > 0)
             curr = curr.next;
 
-        head = curr.next;
+        head = curr.next;   
         curr.next = null;
 
         return head;
     }
 }
 // @lc code=end
-

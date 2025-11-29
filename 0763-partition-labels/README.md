@@ -1,0 +1,1 @@
+<h2><a href="https://leetcode.com/problems/partition-labels/">763. Partition Labels</a></h2><h3>Medium</h3><hr><p>Please refer to <a href="https://leetcode.com/problems/partition-labels/">LeetCode</a> for the full problem description.</p>

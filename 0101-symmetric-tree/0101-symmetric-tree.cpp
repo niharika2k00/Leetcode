@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=101 lang=cpp
+ *
+ * [101] Symmetric Tree
+ */
+// https://leetcode.com/problems/symmetric-tree/
+// @lc code=start
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -9,26 +16,31 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-class Solution {
+class Solution
+{
 public:
-    bool helper(TreeNode* l, TreeNode*r){
-        if(!l && !r) // both null
+    // Using Traversal Technique
+    bool checkSymmetric(TreeNode *L, TreeNode *R)
+    {
+        if (!L && !R)
             return true;
 
-        if(!l && r || l && !r)
+        if (!L || !R) // anyone not there
             return false;
-        
-        if(l->val == r->val)
-            return helper(l->left, r->right) && helper(l->right, r->left);
-        
-        return false;
+
+        if (L->val != R->val)
+            return false;
+
+        bool ans = checkSymmetric(L->left, R->right) && checkSymmetric(L->right, R->left); // when both are TRUE, return true.
+        return ans;
     }
 
-    bool isSymmetric(TreeNode* root) {
-        if(!root) 
+    bool isSymmetric(TreeNode *root)
+    {
+        if (!root)
             return true;
-        
-        bool res = helper(root->left, root->right);
-        return res;
+
+        return checkSymmetric(root->left, root->right);
     }
 };
+// @lc code=end
