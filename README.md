@@ -53,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0009-palindrome-number](https://github.com/niharika2k00/Leetcode/tree/master/0009-palindrome-number) |
 | [0067-add-binary](https://github.com/niharika2k00/Leetcode/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/niharika2k00/Leetcode/tree/master/0070-climbing-stairs) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/niharika2k00/Leetcode/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
