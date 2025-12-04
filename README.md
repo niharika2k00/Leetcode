@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0136-single-number](https://github.com/niharika2k00/Leetcode/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/niharika2k00/Leetcode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/niharika2k00/Leetcode/tree/master/0217-contains-duplicate) |
+| [0268-missing-number](https://github.com/niharika2k00/Leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/niharika2k00/Leetcode/tree/master/0283-move-zeroes) |
 | [0704-binary-search](https://github.com/niharika2k00/Leetcode/tree/master/0704-binary-search) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/niharika2k00/Leetcode/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
@@ -46,6 +47,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/niharika2k00/Leetcode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/niharika2k00/Leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/niharika2k00/Leetcode/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/niharika2k00/Leetcode/tree/master/0268-missing-number) |
 | [0383-ransom-note](https://github.com/niharika2k00/Leetcode/tree/master/0383-ransom-note) |
 ## Sorting
 |  |
@@ -53,16 +55,19 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/niharika2k00/Leetcode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/niharika2k00/Leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/niharika2k00/Leetcode/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/niharika2k00/Leetcode/tree/master/0268-missing-number) |
 ## Math
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/niharika2k00/Leetcode/tree/master/0009-palindrome-number) |
 | [0067-add-binary](https://github.com/niharika2k00/Leetcode/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/niharika2k00/Leetcode/tree/master/0070-climbing-stairs) |
+| [0268-missing-number](https://github.com/niharika2k00/Leetcode/tree/master/0268-missing-number) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/niharika2k00/Leetcode/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 ## Binary Search
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/niharika2k00/Leetcode/tree/master/0268-missing-number) |
 | [0278-first-bad-version](https://github.com/niharika2k00/Leetcode/tree/master/0278-first-bad-version) |
 | [0704-binary-search](https://github.com/niharika2k00/Leetcode/tree/master/0704-binary-search) |
 ## Interactive
@@ -83,6 +88,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0067-add-binary](https://github.com/niharika2k00/Leetcode/tree/master/0067-add-binary) |
 | [0136-single-number](https://github.com/niharika2k00/Leetcode/tree/master/0136-single-number) |
+| [0268-missing-number](https://github.com/niharika2k00/Leetcode/tree/master/0268-missing-number) |
 ## Simulation
 |  |
 | ------- |
