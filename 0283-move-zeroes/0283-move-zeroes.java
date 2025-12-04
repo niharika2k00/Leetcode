@@ -1,28 +1,15 @@
-/*
- * @lc app=leetcode id=283 lang=java
- *
- * [283] Move Zeroes
- * 
- */
-
-// @lc code=start
 class Solution {
-    public void moveZeroes(int[] nums) {
-
-        int len = nums.length, i, j, store = 0;
-
-        if (nums[0] == 1 && len == 1)
-            return;
-
-        for (j = 0; j < len; j++) {
-            if (nums[j] != 0) {
-                nums[store] = nums[j];
-                store++;
-            }
-        }
-
-        for (i = store; i < len; i++)
-            nums[i] = 0;
+  public void moveZeroes(int[] nums) {
+    // Note that you must do this in-place without making a copy of the array. Maintain SC: O(1)
+    int zeropointer = 0;
+    
+    for (int i = 0; i < nums.length; i++) {
+      if (nums[i] != 0) {
+        int temp = nums[zeropointer];
+        nums[zeropointer] = nums[i];
+        nums[i] = temp;
+        zeropointer++;
+      }
     }
+  }
 }
-// @lc code=end
