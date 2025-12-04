@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/move-zeroes/">283. Move Zeroes</a></h2><h3>Easy</h3><hr><p>Given an integer array <code>nums</code>, move all <code>0</code>'s to the end of it while maintaining the relative order of the non-zero elements.</p>
+<h2><a href="https://leetcode.com/problems/move-zeroes">283. Move Zeroes</a></h2><h3>Easy</h3><hr><p>Given an integer array <code>nums</code>, move all <code>0</code>&#39;s to the end of it while maintaining the relative order of the non-zero elements.</p>
 
 <p><strong>Note</strong> that you must do this in-place without making a copy of the array.</p>
 
@@ -10,7 +10,6 @@
 <pre><strong>Input:</strong> nums = [0]
 <strong>Output:</strong> [0]
 </pre>
-
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
 
@@ -19,3 +18,5 @@
 	<li><code>-2<sup>31</sup> &lt;= nums[i] &lt;= 2<sup>31</sup> - 1</code></li>
 </ul>
 
+<p>&nbsp;</p>
+<strong>Follow up:</strong> Could you minimize the total number of operations done?
