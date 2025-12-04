@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0136-single-number](https://github.com/niharika2k00/Leetcode/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/niharika2k00/Leetcode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/niharika2k00/Leetcode/tree/master/0217-contains-duplicate) |
+| [0283-move-zeroes](https://github.com/niharika2k00/Leetcode/tree/master/0283-move-zeroes) |
 | [0704-binary-search](https://github.com/niharika2k00/Leetcode/tree/master/0704-binary-search) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/niharika2k00/Leetcode/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 ## Greedy
@@ -38,6 +39,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/niharika2k00/Leetcode/tree/master/0125-valid-palindrome) |
+| [0283-move-zeroes](https://github.com/niharika2k00/Leetcode/tree/master/0283-move-zeroes) |
 ## Hash Table
 |  |
 | ------- |
