@@ -1,34 +1,40 @@
-/*
- * @lc app=leetcode id=206 lang=java
- *
- * https://leetcode.com/problems/reverse-linked-list/
- * 
- * [206] Reverse Linked List
- */
-
-// @lc code=start
 /**
  * Definition for singly-linked list.
  * public class ListNode {
- * int val;
- * ListNode next;
- * ListNode() {}
- * ListNode(int val) { this.val = val; }
- * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
 class Solution {
-    public ListNode reverseList(ListNode head) {
-        ListNode curr = head, temp, newHead = null;
+  public ListNode reverseList(ListNode head) {
+    // Method 1: Recursive Approach
+    // Ref: https://www.youtube.com/watch?v=KYH83T4q6Vs
+    // if (head == null || head.next == null) {
+    //   return head;
+    // }
 
-        while (curr != null) {
-            temp = curr.next; // address
-            curr.next = newHead;
-            newHead = curr;
-            curr = temp;    
-        }
+    // ListNode revHead = reverseList(head.next);
 
-        return newHead;
+    // ListNode temp = head.next;
+    // temp.next = head;
+    // head.next = null;
+
+    // return revHead;
+
+    // Method 2: Iterative Approach
+    ListNode curr = head;
+    ListNode prev = null;
+
+    while(curr != null) {
+      ListNode next = curr.next;
+      curr.next = prev;
+      prev = curr;
+      curr = next;
     }
+
+    return prev;
+  }
 }
-// @lc code=end
