@@ -41,12 +41,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/niharika2k00/Leetcode/tree/master/0125-valid-palindrome) |
+| [0141-linked-list-cycle](https://github.com/niharika2k00/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0283-move-zeroes](https://github.com/niharika2k00/Leetcode/tree/master/0283-move-zeroes) |
 | [0876-middle-of-the-linked-list](https://github.com/niharika2k00/Leetcode/tree/master/0876-middle-of-the-linked-list) |
 | [0977-squares-of-a-sorted-array](https://github.com/niharika2k00/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 ## Hash Table
 |  |
 | ------- |
+| [0141-linked-list-cycle](https://github.com/niharika2k00/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0169-majority-element](https://github.com/niharika2k00/Leetcode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/niharika2k00/Leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/niharika2k00/Leetcode/tree/master/0242-valid-anagram) |
@@ -106,6 +108,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Linked List
 |  |
 | ------- |
+| [0141-linked-list-cycle](https://github.com/niharika2k00/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0206-reverse-linked-list](https://github.com/niharika2k00/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/niharika2k00/Leetcode/tree/master/0876-middle-of-the-linked-list) |
 ## Recursion
