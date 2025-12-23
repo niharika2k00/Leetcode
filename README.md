@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/niharika2k00/Leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/niharika2k00/Leetcode/tree/master/0283-move-zeroes) |
 | [0416-partition-equal-subset-sum](https://github.com/niharika2k00/Leetcode/tree/master/0416-partition-equal-subset-sum) |
+| [0455-assign-cookies](https://github.com/niharika2k00/Leetcode/tree/master/0455-assign-cookies) |
 | [0704-binary-search](https://github.com/niharika2k00/Leetcode/tree/master/0704-binary-search) |
 | [0977-squares-of-a-sorted-array](https://github.com/niharika2k00/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/niharika2k00/Leetcode/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
@@ -26,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0134-gas-station](https://github.com/niharika2k00/Leetcode/tree/master/0134-gas-station) |
 | [0409-longest-palindrome](https://github.com/niharika2k00/Leetcode/tree/master/0409-longest-palindrome) |
+| [0455-assign-cookies](https://github.com/niharika2k00/Leetcode/tree/master/0455-assign-cookies) |
 ## String
 |  |
 | ------- |
@@ -54,6 +56,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0125-valid-palindrome](https://github.com/niharika2k00/Leetcode/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/niharika2k00/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0283-move-zeroes](https://github.com/niharika2k00/Leetcode/tree/master/0283-move-zeroes) |
+| [0455-assign-cookies](https://github.com/niharika2k00/Leetcode/tree/master/0455-assign-cookies) |
 | [0876-middle-of-the-linked-list](https://github.com/niharika2k00/Leetcode/tree/master/0876-middle-of-the-linked-list) |
 | [0977-squares-of-a-sorted-array](https://github.com/niharika2k00/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 ## Hash Table
@@ -74,6 +77,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0217-contains-duplicate](https://github.com/niharika2k00/Leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/niharika2k00/Leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/niharika2k00/Leetcode/tree/master/0268-missing-number) |
+| [0455-assign-cookies](https://github.com/niharika2k00/Leetcode/tree/master/0455-assign-cookies) |
 | [0977-squares-of-a-sorted-array](https://github.com/niharika2k00/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 ## Math
 |  |
