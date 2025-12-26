@@ -35,3 +35,8 @@
 	<li><code>1 &lt;= coins[i] &lt;= 2<sup>31</sup> - 1</code></li>
 	<li><code>0 &lt;= amount &lt;= 10<sup>4</sup></code></li>
 </ul>
+
+
+**For dry-run in solution:**
+<img width="674" height="453" alt="image" src="https://assets.leetcode.com/users/images/ea89fc5b-104b-4efe-bb18-75bb7d88d70e_1758981760.9582856.png" />
+
