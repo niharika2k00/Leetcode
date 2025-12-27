@@ -20,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/niharika2k00/Leetcode/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/niharika2k00/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0455-assign-cookies](https://github.com/niharika2k00/Leetcode/tree/master/0455-assign-cookies) |
+| [0542-01-matrix](https://github.com/niharika2k00/Leetcode/tree/master/0542-01-matrix) |
 | [0704-binary-search](https://github.com/niharika2k00/Leetcode/tree/master/0704-binary-search) |
 | [0977-squares-of-a-sorted-array](https://github.com/niharika2k00/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/niharika2k00/Leetcode/tree/master/2410-maximum-matching-of-players-with-trainers) |
@@ -54,6 +55,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/niharika2k00/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0322-coin-change](https://github.com/niharika2k00/Leetcode/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/niharika2k00/Leetcode/tree/master/0416-partition-equal-subset-sum) |
+| [0542-01-matrix](https://github.com/niharika2k00/Leetcode/tree/master/0542-01-matrix) |
 ## Two Pointers
 |  |
 | ------- |
@@ -154,4 +156,9 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/niharika2k00/Leetcode/tree/master/0322-coin-change) |
+| [0542-01-matrix](https://github.com/niharika2k00/Leetcode/tree/master/0542-01-matrix) |
+## Matrix
+|  |
+| ------- |
+| [0542-01-matrix](https://github.com/niharika2k00/Leetcode/tree/master/0542-01-matrix) |
 <!---LeetCode Topics End-->
