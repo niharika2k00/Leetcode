@@ -1,3 +1,4 @@
+// Solution Video: https://www.youtube.com/watch?v=gu2MD0mpy9w
 class Solution {
   Queue<int[]> q = new LinkedList<>();
   int[][] directions = new int[][] { { -1, 0 }, { 0, 1 }, { 1, 0 }, { 0, -1 } };
