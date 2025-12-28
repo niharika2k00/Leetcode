@@ -42,3 +42,8 @@ class Solution {
     return dist;
   }
 }
+
+// Dry Run with this example :
+// 0 1 1
+// 1 1 1
+// 1 1 1
