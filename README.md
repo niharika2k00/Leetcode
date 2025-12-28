@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0136-single-number](https://github.com/niharika2k00/Leetcode/tree/master/0136-single-number) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/niharika2k00/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0169-majority-element](https://github.com/niharika2k00/Leetcode/tree/master/0169-majority-element) |
+| [0200-number-of-islands](https://github.com/niharika2k00/Leetcode/tree/master/0200-number-of-islands) |
 | [0217-contains-duplicate](https://github.com/niharika2k00/Leetcode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/niharika2k00/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/niharika2k00/Leetcode/tree/master/0268-missing-number) |
@@ -157,10 +158,20 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Breadth-First Search
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/niharika2k00/Leetcode/tree/master/0200-number-of-islands) |
 | [0322-coin-change](https://github.com/niharika2k00/Leetcode/tree/master/0322-coin-change) |
 | [0542-01-matrix](https://github.com/niharika2k00/Leetcode/tree/master/0542-01-matrix) |
 ## Matrix
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/niharika2k00/Leetcode/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/niharika2k00/Leetcode/tree/master/0542-01-matrix) |
+## Depth-First Search
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/niharika2k00/Leetcode/tree/master/0200-number-of-islands) |
+## Union Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/niharika2k00/Leetcode/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
