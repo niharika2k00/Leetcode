@@ -23,6 +23,7 @@ class Solution {
       int size = queue.size();
       time++;
 
+      // if using queue.size() directly instead of size, it will not work properly, bcz queue is changeable.
       while (size-- > 0) {
         int[] curr = queue.poll();
         int i = curr[0], j = curr[1];
@@ -30,9 +31,10 @@ class Solution {
         if (i < 0 || i >= grid.length || j < 0 || j >= grid[0].length || grid[i][j] == 0)
           continue;
 
-        for (int[] dir : directions) {
+        for (int[] dir : directions) { // mark fresh oranges rotten in all 4 directions
           int nx = i + dir[0];
           int ny = j + dir[1];
+
           if (nx >= 0 && nx < grid.length && ny >= 0 && ny < grid[0].length && grid[nx][ny] == 1) {
             queue.add(new int[] { nx, ny });
             grid[nx][ny] = 2; // mark as visited/rotten
