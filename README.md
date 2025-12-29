@@ -25,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/niharika2k00/Leetcode/tree/master/0542-01-matrix) |
 | [0704-binary-search](https://github.com/niharika2k00/Leetcode/tree/master/0704-binary-search) |
 | [0977-squares-of-a-sorted-array](https://github.com/niharika2k00/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
+| [0994-rotting-oranges](https://github.com/niharika2k00/Leetcode/tree/master/0994-rotting-oranges) |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/niharika2k00/Leetcode/tree/master/2410-maximum-matching-of-players-with-trainers) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/niharika2k00/Leetcode/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 ## Greedy
@@ -161,11 +162,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/niharika2k00/Leetcode/tree/master/0200-number-of-islands) |
 | [0322-coin-change](https://github.com/niharika2k00/Leetcode/tree/master/0322-coin-change) |
 | [0542-01-matrix](https://github.com/niharika2k00/Leetcode/tree/master/0542-01-matrix) |
+| [0994-rotting-oranges](https://github.com/niharika2k00/Leetcode/tree/master/0994-rotting-oranges) |
 ## Matrix
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/niharika2k00/Leetcode/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/niharika2k00/Leetcode/tree/master/0542-01-matrix) |
+| [0994-rotting-oranges](https://github.com/niharika2k00/Leetcode/tree/master/0994-rotting-oranges) |
 ## Depth-First Search
 |  |
 | ------- |
