@@ -50,6 +50,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0020-valid-parentheses](https://github.com/niharika2k00/Leetcode/tree/master/0020-valid-parentheses) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/niharika2k00/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0155-min-stack](https://github.com/niharika2k00/Leetcode/tree/master/0155-min-stack) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -190,4 +191,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/niharika2k00/Leetcode/tree/master/0098-validate-binary-search-tree) |
+## Design
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/niharika2k00/Leetcode/tree/master/0155-min-stack) |
 <!---LeetCode Topics End-->
