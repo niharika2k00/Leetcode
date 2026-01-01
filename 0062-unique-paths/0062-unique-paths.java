@@ -1,37 +1,27 @@
-/*
- * @lc app=leetcode id=62 lang=java
- *
- * [62] Unique Paths
- */
-
-// @lc code=start
 class Solution {
+  public int uniquePaths(int m, int n) {
+    int dp[][] = new int[m + 1][n + 1];
 
-    private int findWays(int row, int col, int[][] Dp) {
-        if (row == 0 && col == 0)
-            return 1;
+    for (int i = 0; i <= m; i++)
+      Arrays.fill(dp[i], -1);
 
-        if (row < 0 || col < 0) // Out Of Bounds
-            return 0;
+    return dfs(m - 1, n - 1, dp);
+  }
 
-        if (Dp[row][col] != -1)
-            return Dp[row][col];
+  private int dfs(int row, int col, int[][] dp) {
+    if (row == 0 && col == 0) // reaches (0,0)
+      return 1;
 
-        int up = findWays(row - 1, col, Dp);
-        int left = findWays(row, col - 1, Dp);
+    if (row < 0 || col < 0) // out of bound
+      return 0;
 
-        return Dp[row][col] = (up + left);
-    }
+    if (dp[row][col] != -1)
+      return dp[row][col];
 
-    public int uniquePaths(int m, int n) {
+    // if we go from (m,n) to (0,0) then can traverse in 2 directions UP and LEFT
+    int upPaths = dfs(row - 1, col, dp);
+    int leftPaths = dfs(row, col - 1, dp);
 
-        //  Initialize 2D array to -1
-        int[][] Dp = new int[m][n];
-        for (int[] arr1 : Dp)
-            Arrays.fill(arr1, -1);
-
-        int result = findWays(m - 1, n - 1, Dp);
-        return result;
-    }
+    return dp[row][col] = upPaths + leftPaths;
+  }
 }
-// @lc code=end
