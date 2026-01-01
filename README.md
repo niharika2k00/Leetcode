@@ -47,6 +47,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0242-valid-anagram](https://github.com/niharika2k00/Leetcode/tree/master/0242-valid-anagram) |
 | [0383-ransom-note](https://github.com/niharika2k00/Leetcode/tree/master/0383-ransom-note) |
 | [0409-longest-palindrome](https://github.com/niharika2k00/Leetcode/tree/master/0409-longest-palindrome) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/niharika2k00/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 ## Stack
 |  |
 | ------- |
@@ -85,6 +86,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/niharika2k00/Leetcode/tree/master/0268-missing-number) |
 | [0383-ransom-note](https://github.com/niharika2k00/Leetcode/tree/master/0383-ransom-note) |
 | [0409-longest-palindrome](https://github.com/niharika2k00/Leetcode/tree/master/0409-longest-palindrome) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/niharika2k00/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 ## Sorting
 |  |
 | ------- |
@@ -160,6 +162,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/niharika2k00/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/niharika2k00/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 ## Prefix Sum
 |  |
 | ------- |
