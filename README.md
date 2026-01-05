@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0704-binary-search](https://github.com/niharika2k00/Leetcode/tree/master/0704-binary-search) |
 | [0977-squares-of-a-sorted-array](https://github.com/niharika2k00/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [0994-rotting-oranges](https://github.com/niharika2k00/Leetcode/tree/master/0994-rotting-oranges) |
+| [1975-maximum-matrix-sum](https://github.com/niharika2k00/Leetcode/tree/master/1975-maximum-matrix-sum) |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/niharika2k00/Leetcode/tree/master/2410-maximum-matching-of-players-with-trainers) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/niharika2k00/Leetcode/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 ## Greedy
@@ -36,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0134-gas-station](https://github.com/niharika2k00/Leetcode/tree/master/0134-gas-station) |
 | [0409-longest-palindrome](https://github.com/niharika2k00/Leetcode/tree/master/0409-longest-palindrome) |
 | [0455-assign-cookies](https://github.com/niharika2k00/Leetcode/tree/master/0455-assign-cookies) |
+| [1975-maximum-matrix-sum](https://github.com/niharika2k00/Leetcode/tree/master/1975-maximum-matrix-sum) |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/niharika2k00/Leetcode/tree/master/2410-maximum-matching-of-players-with-trainers) |
 ## String
 |  |
@@ -180,6 +182,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/niharika2k00/Leetcode/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/niharika2k00/Leetcode/tree/master/0542-01-matrix) |
 | [0994-rotting-oranges](https://github.com/niharika2k00/Leetcode/tree/master/0994-rotting-oranges) |
+| [1975-maximum-matrix-sum](https://github.com/niharika2k00/Leetcode/tree/master/1975-maximum-matrix-sum) |
 ## Depth-First Search
 |  |
 | ------- |
