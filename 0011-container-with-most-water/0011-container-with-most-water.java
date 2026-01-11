@@ -4,7 +4,7 @@ class Solution {
     int l = 0, r = len - 1;
 
     while (l < r) {
-      // amount of water is the product of the difference between the distance of 2 lines and the height of the minimum line
+      // amount of water is the product of the distance between the two lines and the height of the shorter line
       volume = (r - l) * Math.min(height[r], height[l]);
 
       if (height[l] < height[r])
