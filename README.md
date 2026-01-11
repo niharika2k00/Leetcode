@@ -26,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/niharika2k00/Leetcode/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/niharika2k00/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0455-assign-cookies](https://github.com/niharika2k00/Leetcode/tree/master/0455-assign-cookies) |
+| [0494-target-sum](https://github.com/niharika2k00/Leetcode/tree/master/0494-target-sum) |
 | [0542-01-matrix](https://github.com/niharika2k00/Leetcode/tree/master/0542-01-matrix) |
 | [0704-binary-search](https://github.com/niharika2k00/Leetcode/tree/master/0704-binary-search) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/niharika2k00/Leetcode/tree/master/0961-n-repeated-element-in-size-2n-array) |
@@ -71,6 +72,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/niharika2k00/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0322-coin-change](https://github.com/niharika2k00/Leetcode/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/niharika2k00/Leetcode/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/niharika2k00/Leetcode/tree/master/0494-target-sum) |
 | [0542-01-matrix](https://github.com/niharika2k00/Leetcode/tree/master/0542-01-matrix) |
 ## Two Pointers
 |  |
@@ -227,4 +229,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/niharika2k00/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0494-target-sum](https://github.com/niharika2k00/Leetcode/tree/master/0494-target-sum) |
 <!---LeetCode Topics End-->
