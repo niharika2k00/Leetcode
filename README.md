@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/niharika2k00/Leetcode/tree/master/0011-container-with-most-water) |
 | [0033-search-in-rotated-sorted-array](https://github.com/niharika2k00/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0053-maximum-subarray](https://github.com/niharika2k00/Leetcode/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/niharika2k00/Leetcode/tree/master/0056-merge-intervals) |
@@ -37,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/niharika2k00/Leetcode/tree/master/0011-container-with-most-water) |
 | [0134-gas-station](https://github.com/niharika2k00/Leetcode/tree/master/0134-gas-station) |
 | [0409-longest-palindrome](https://github.com/niharika2k00/Leetcode/tree/master/0409-longest-palindrome) |
 | [0455-assign-cookies](https://github.com/niharika2k00/Leetcode/tree/master/0455-assign-cookies) |
@@ -73,6 +75,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/niharika2k00/Leetcode/tree/master/0011-container-with-most-water) |
 | [0075-sort-colors](https://github.com/niharika2k00/Leetcode/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/niharika2k00/Leetcode/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/niharika2k00/Leetcode/tree/master/0141-linked-list-cycle) |
