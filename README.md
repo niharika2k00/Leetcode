@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/niharika2k00/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0134-gas-station](https://github.com/niharika2k00/Leetcode/tree/master/0134-gas-station) |
 | [0136-single-number](https://github.com/niharika2k00/Leetcode/tree/master/0136-single-number) |
+| [0139-word-break](https://github.com/niharika2k00/Leetcode/tree/master/0139-word-break) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/niharika2k00/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0169-majority-element](https://github.com/niharika2k00/Leetcode/tree/master/0169-majority-element) |
 | [0200-number-of-islands](https://github.com/niharika2k00/Leetcode/tree/master/0200-number-of-islands) |
@@ -55,6 +56,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0067-add-binary](https://github.com/niharika2k00/Leetcode/tree/master/0067-add-binary) |
 | [0079-word-search](https://github.com/niharika2k00/Leetcode/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/niharika2k00/Leetcode/tree/master/0125-valid-palindrome) |
+| [0139-word-break](https://github.com/niharika2k00/Leetcode/tree/master/0139-word-break) |
 | [0242-valid-anagram](https://github.com/niharika2k00/Leetcode/tree/master/0242-valid-anagram) |
 | [0383-ransom-note](https://github.com/niharika2k00/Leetcode/tree/master/0383-ransom-note) |
 | [0409-longest-palindrome](https://github.com/niharika2k00/Leetcode/tree/master/0409-longest-palindrome) |
@@ -72,6 +74,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0062-unique-paths](https://github.com/niharika2k00/Leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/niharika2k00/Leetcode/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/niharika2k00/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0139-word-break](https://github.com/niharika2k00/Leetcode/tree/master/0139-word-break) |
 | [0322-coin-change](https://github.com/niharika2k00/Leetcode/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/niharika2k00/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/niharika2k00/Leetcode/tree/master/0494-target-sum) |
@@ -93,6 +96,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/niharika2k00/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/niharika2k00/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0139-word-break](https://github.com/niharika2k00/Leetcode/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/niharika2k00/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0169-majority-element](https://github.com/niharika2k00/Leetcode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/niharika2k00/Leetcode/tree/master/0217-contains-duplicate) |
@@ -141,6 +145,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/niharika2k00/Leetcode/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/niharika2k00/Leetcode/tree/master/0139-word-break) |
 ## Counting
 |  |
 | ------- |
@@ -235,4 +240,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0017-letter-combinations-of-a-phone-number](https://github.com/niharika2k00/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0079-word-search](https://github.com/niharika2k00/Leetcode/tree/master/0079-word-search) |
 | [0494-target-sum](https://github.com/niharika2k00/Leetcode/tree/master/0494-target-sum) |
+## Trie
+|  |
+| ------- |
+| [0139-word-break](https://github.com/niharika2k00/Leetcode/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
