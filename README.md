@@ -193,6 +193,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/niharika2k00/Leetcode/tree/master/0200-number-of-islands) |
+| [0310-minimum-height-trees](https://github.com/niharika2k00/Leetcode/tree/master/0310-minimum-height-trees) |
 | [0322-coin-change](https://github.com/niharika2k00/Leetcode/tree/master/0322-coin-change) |
 | [0542-01-matrix](https://github.com/niharika2k00/Leetcode/tree/master/0542-01-matrix) |
 | [0994-rotting-oranges](https://github.com/niharika2k00/Leetcode/tree/master/0994-rotting-oranges) |
@@ -210,6 +211,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/niharika2k00/Leetcode/tree/master/0079-word-search) |
 | [0098-validate-binary-search-tree](https://github.com/niharika2k00/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0200-number-of-islands](https://github.com/niharika2k00/Leetcode/tree/master/0200-number-of-islands) |
+| [0310-minimum-height-trees](https://github.com/niharika2k00/Leetcode/tree/master/0310-minimum-height-trees) |
 ## Union Find
 |  |
 | ------- |
@@ -244,4 +246,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0139-word-break](https://github.com/niharika2k00/Leetcode/tree/master/0139-word-break) |
+## Graph Theory
+|  |
+| ------- |
+| [0310-minimum-height-trees](https://github.com/niharika2k00/Leetcode/tree/master/0310-minimum-height-trees) |
+## Topological Sort
+|  |
+| ------- |
+| [0310-minimum-height-trees](https://github.com/niharika2k00/Leetcode/tree/master/0310-minimum-height-trees) |
 <!---LeetCode Topics End-->
