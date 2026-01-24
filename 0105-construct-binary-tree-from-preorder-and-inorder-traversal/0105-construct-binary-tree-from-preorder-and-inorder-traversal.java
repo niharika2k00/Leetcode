@@ -32,6 +32,7 @@ class Solution {
   }
 
   // Method 1: Without using HashMap
+  // TC: O(n^2)
   // private TreeNode helper(int start, int end, int[] preorder, int[] inorder) {
   //   // base case if end becomes negative when i=0
   //   if (end < start)
@@ -54,6 +55,7 @@ class Solution {
   // }
 
   // Method 2: Using HashMap
+  // TC: O(n)  SC: O(n)
   private TreeNode helper(int start, int end, int[] preorder, int[] inorder, HashMap<Integer, Integer> map) {
     // base case if end becomes negative when i=0
     if (end < start)
