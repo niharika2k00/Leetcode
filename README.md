@@ -222,6 +222,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/niharika2k00/Leetcode/tree/master/0079-word-search) |
 | [0098-validate-binary-search-tree](https://github.com/niharika2k00/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0200-number-of-islands](https://github.com/niharika2k00/Leetcode/tree/master/0200-number-of-islands) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/niharika2k00/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0310-minimum-height-trees](https://github.com/niharika2k00/Leetcode/tree/master/0310-minimum-height-trees) |
 ## Union Find
 |  |
@@ -232,15 +233,18 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/niharika2k00/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/niharika2k00/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/niharika2k00/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 ## Binary Search Tree
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/niharika2k00/Leetcode/tree/master/0098-validate-binary-search-tree) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/niharika2k00/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 ## Binary Tree
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/niharika2k00/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/niharika2k00/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/niharika2k00/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 ## Design
 |  |
 | ------- |
