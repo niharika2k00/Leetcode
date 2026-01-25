@@ -14,7 +14,7 @@
  * }
  */
 class Solution {
-  int level = 1, maxLevelSum = Integer.MIN_VALUE, maxLevel = 0;
+  int currentLevel = 1, maxLevelSum = Integer.MIN_VALUE, maxLevel = 0;
 
   public int maxLevelSum(TreeNode root) {
     // Using BFS (Level Order Traversal)
@@ -44,13 +44,13 @@ class Solution {
           q.offer(node.right);
       }
 
-      // computing for each level
+      // computing for each currentLevel
       if (sum > maxLevelSum) {
         maxLevelSum = sum;
-        maxLevel = level;
+        maxLevel = currentLevel;
       }
 
-      level++;
+      currentLevel++;
     }
   }
 }
