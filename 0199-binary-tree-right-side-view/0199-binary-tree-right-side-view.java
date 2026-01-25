@@ -13,34 +13,37 @@
  *     }
  * }
  */
- 
-/* 
-  Intuition:
----------------
-Use Recursive method BFS - inverse of PreOrder Traversal
-Generally we use, Root Left Right but here use Root Right Left instead
-
-*/
-
 class Solution {
-    List<Integer> arrli = new ArrayList<Integer>();
+  List<Integer> result = new ArrayList<>();
 
-    public void helper(TreeNode root, int level){
-        if(root == null)
-            return;
+  public List<Integer> rightSideView(TreeNode root) {
+    // Using BFS (Level Order Traversal)
+    bfs(root);
 
-        if (arrli.size() == level)
-            arrli.add(root.val);
+    return result;
+  }
 
-        if(root.right != null)
-            helper(root.right, level+1);
-        if(root.left != null)
-            helper(root.left, level+1);
+  private void bfs(TreeNode root) {
+    if (root == null)
+      return;
+
+    Queue<TreeNode> q = new LinkedList();
+    q.offer(root);
+
+    while (!q.isEmpty()) {
+      int size = q.size();
+      TreeNode node = null;
+
+      for (int i = 0; i < size; i++) {
+        node = q.poll();
+
+        if (node.left != null)
+          q.offer(node.left);
+        if (node.right != null)
+          q.offer(node.right);
+      }
+
+      result.add(node.val); // push the last node for every level into the array
     }
-
-    public List<Integer> rightSideView(TreeNode root) {
-       
-        helper(root, 0);
-        return arrli;
-    }
+  }
 }
