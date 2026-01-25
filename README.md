@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0455-assign-cookies](https://github.com/niharika2k00/Leetcode/tree/master/0455-assign-cookies) |
 | [0494-target-sum](https://github.com/niharika2k00/Leetcode/tree/master/0494-target-sum) |
 | [0542-01-matrix](https://github.com/niharika2k00/Leetcode/tree/master/0542-01-matrix) |
+| [0692-top-k-frequent-words](https://github.com/niharika2k00/Leetcode/tree/master/0692-top-k-frequent-words) |
 | [0704-binary-search](https://github.com/niharika2k00/Leetcode/tree/master/0704-binary-search) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/niharika2k00/Leetcode/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [0977-squares-of-a-sorted-array](https://github.com/niharika2k00/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
@@ -65,6 +66,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0383-ransom-note](https://github.com/niharika2k00/Leetcode/tree/master/0383-ransom-note) |
 | [0409-longest-palindrome](https://github.com/niharika2k00/Leetcode/tree/master/0409-longest-palindrome) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/niharika2k00/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0692-top-k-frequent-words](https://github.com/niharika2k00/Leetcode/tree/master/0692-top-k-frequent-words) |
 ## Stack
 |  |
 | ------- |
@@ -112,6 +114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0383-ransom-note](https://github.com/niharika2k00/Leetcode/tree/master/0383-ransom-note) |
 | [0409-longest-palindrome](https://github.com/niharika2k00/Leetcode/tree/master/0409-longest-palindrome) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/niharika2k00/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0692-top-k-frequent-words](https://github.com/niharika2k00/Leetcode/tree/master/0692-top-k-frequent-words) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/niharika2k00/Leetcode/tree/master/0961-n-repeated-element-in-size-2n-array) |
 ## Sorting
 |  |
@@ -123,6 +126,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0242-valid-anagram](https://github.com/niharika2k00/Leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/niharika2k00/Leetcode/tree/master/0268-missing-number) |
 | [0455-assign-cookies](https://github.com/niharika2k00/Leetcode/tree/master/0455-assign-cookies) |
+| [0692-top-k-frequent-words](https://github.com/niharika2k00/Leetcode/tree/master/0692-top-k-frequent-words) |
 | [0977-squares-of-a-sorted-array](https://github.com/niharika2k00/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/niharika2k00/Leetcode/tree/master/2410-maximum-matching-of-players-with-trainers) |
 ## Math
@@ -159,6 +163,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0169-majority-element](https://github.com/niharika2k00/Leetcode/tree/master/0169-majority-element) |
 | [0383-ransom-note](https://github.com/niharika2k00/Leetcode/tree/master/0383-ransom-note) |
+| [0692-top-k-frequent-words](https://github.com/niharika2k00/Leetcode/tree/master/0692-top-k-frequent-words) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -272,6 +277,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0139-word-break](https://github.com/niharika2k00/Leetcode/tree/master/0139-word-break) |
+| [0692-top-k-frequent-words](https://github.com/niharika2k00/Leetcode/tree/master/0692-top-k-frequent-words) |
 ## Graph Theory
 |  |
 | ------- |
@@ -280,4 +286,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0310-minimum-height-trees](https://github.com/niharika2k00/Leetcode/tree/master/0310-minimum-height-trees) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0692-top-k-frequent-words](https://github.com/niharika2k00/Leetcode/tree/master/0692-top-k-frequent-words) |
+## Bucket Sort
+|  |
+| ------- |
+| [0692-top-k-frequent-words](https://github.com/niharika2k00/Leetcode/tree/master/0692-top-k-frequent-words) |
 <!---LeetCode Topics End-->
