@@ -36,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/niharika2k00/Leetcode/tree/master/0542-01-matrix) |
 | [0692-top-k-frequent-words](https://github.com/niharika2k00/Leetcode/tree/master/0692-top-k-frequent-words) |
 | [0704-binary-search](https://github.com/niharika2k00/Leetcode/tree/master/0704-binary-search) |
+| [0739-daily-temperatures](https://github.com/niharika2k00/Leetcode/tree/master/0739-daily-temperatures) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/niharika2k00/Leetcode/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [0977-squares-of-a-sorted-array](https://github.com/niharika2k00/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [0994-rotting-oranges](https://github.com/niharika2k00/Leetcode/tree/master/0994-rotting-oranges) |
@@ -73,6 +74,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0020-valid-parentheses](https://github.com/niharika2k00/Leetcode/tree/master/0020-valid-parentheses) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/niharika2k00/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/niharika2k00/Leetcode/tree/master/0155-min-stack) |
+| [0739-daily-temperatures](https://github.com/niharika2k00/Leetcode/tree/master/0739-daily-temperatures) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -294,4 +296,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0692-top-k-frequent-words](https://github.com/niharika2k00/Leetcode/tree/master/0692-top-k-frequent-words) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0739-daily-temperatures](https://github.com/niharika2k00/Leetcode/tree/master/0739-daily-temperatures) |
 <!---LeetCode Topics End-->
