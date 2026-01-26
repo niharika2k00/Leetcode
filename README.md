@@ -40,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/niharika2k00/Leetcode/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [0977-squares-of-a-sorted-array](https://github.com/niharika2k00/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [0994-rotting-oranges](https://github.com/niharika2k00/Leetcode/tree/master/0994-rotting-oranges) |
+| [1200-minimum-absolute-difference](https://github.com/niharika2k00/Leetcode/tree/master/1200-minimum-absolute-difference) |
 | [1390-four-divisors](https://github.com/niharika2k00/Leetcode/tree/master/1390-four-divisors) |
 | [1975-maximum-matrix-sum](https://github.com/niharika2k00/Leetcode/tree/master/1975-maximum-matrix-sum) |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/niharika2k00/Leetcode/tree/master/2410-maximum-matching-of-players-with-trainers) |
@@ -130,6 +131,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0455-assign-cookies](https://github.com/niharika2k00/Leetcode/tree/master/0455-assign-cookies) |
 | [0692-top-k-frequent-words](https://github.com/niharika2k00/Leetcode/tree/master/0692-top-k-frequent-words) |
 | [0977-squares-of-a-sorted-array](https://github.com/niharika2k00/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
+| [1200-minimum-absolute-difference](https://github.com/niharika2k00/Leetcode/tree/master/1200-minimum-absolute-difference) |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/niharika2k00/Leetcode/tree/master/2410-maximum-matching-of-players-with-trainers) |
 ## Math
 |  |
