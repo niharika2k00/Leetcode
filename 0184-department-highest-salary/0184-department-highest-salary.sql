@@ -1,6 +1,7 @@
 # Write your MySQL query statement below
 
 -- Approach 1
+-- In the subquery we're getting the max salary for x branch
 select d.name as Department, e.name as Employee, e.salary as Salary
 from Employee e 
 inner join Department d
