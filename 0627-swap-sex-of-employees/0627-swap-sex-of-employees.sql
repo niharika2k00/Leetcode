@@ -12,3 +12,6 @@ end;
 --   when 'm' then 'f'
 --   else 'm'
 -- end;
+
+-- update Salary
+-- set sex = if (sex = 'm', 'f', 'm');
