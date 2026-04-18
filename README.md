@@ -306,4 +306,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0739-daily-temperatures](https://github.com/niharika2k00/Leetcode/tree/master/0739-daily-temperatures) |
+## Database
+|  |
+| ------- |
+| [0610-triangle-judgement](https://github.com/niharika2k00/Leetcode/tree/master/0610-triangle-judgement) |
 <!---LeetCode Topics End-->
