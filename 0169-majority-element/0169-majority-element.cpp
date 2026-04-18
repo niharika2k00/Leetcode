@@ -29,7 +29,7 @@ public:
         return ans;
     }
 
-    //  Time Complexity :  O(n)       ------   Using Moore's Majority Algorithm
+    //  Time Complexity :  O(n)       ------   Using Moore's Voting Algorithm
     //  Space Complexity :  O(1)
     int majorityElement(vector<int> &nums)
     {
